@@ -373,9 +373,29 @@ body {
     left: 604px;
     width: 265px;
   }
+  .sld1 .s1 .good .spot {
+    position: absolute;
+    z-index: 1;
+  }
+  .sld1 .s1 .good-1 .spot {
+    top: 5px;
+    left: -98px;
+    width: 235px;
+    height: 330px;
+    background-image: url('../images/1/spot-f.png');
+  }
+  .sld1 .s1 .good-2 .spot {
+    top: -24px;
+    left: -64px;
+    width: 216px;
+    height: 357px;
+    background-image: url('../images/1/spot-3d.png');
+  }
   .sld1 .s1 .good .img {
     position: absolute;
     bottom: 0;
+    left: 0;
+    z-index: 2;
   }
   .sld1 .s1 .good-1 .img {
     width: 151px;
@@ -388,8 +408,25 @@ body {
     background-image: url('../images/1/bottle-3d.png');
   }
   .sld1 .s1 .good .list {
+    box-sizing: border-box;
     position: absolute;
-    top: 55px;
+    top: 45px;
+    left: 100px;
+    width: 266px;
+    padding-left: 100px;
+    padding-top: 11px;
+    transform: translateX(-100px);
+    opacity: 0;
+    z-index: 0;
+  }
+  .sld1 .s1 .good .list-l {
+    height: 215px;
+    background-image: url('../images/1/list-left-bg.png');
+    right: 0;
+  }
+  .sld1 .s1 .good .list-r {
+    height: 88px;
+    background-image: url('../images/1/list-right-bg.png');
     right: 0;
     transform: translateX(-100px);
     opacity: 0;
@@ -397,6 +434,9 @@ body {
   .sld1 .s1 .good .list li {
     position: relative;
     margin-bottom: 26px;
+  }
+  .sld1 .s1 .good .list li .adv {
+    white-space: nowrap;
   }
   .sld1 .s1 .good .list li .tick {
     position: absolute;
@@ -426,10 +466,10 @@ body {
     position: absolute;
     bottom: 44px;
   }
-  .sld1 .s1 .tones-1 {
+  .sld1 .s1 .tones-l {
     left: 242px;
   }
-  .sld1 .s1 .tones-2 {
+  .sld1 .s1 .tones-r {
     left: 715px;
   }
   .sld1 .s1 .tones li {
@@ -443,15 +483,27 @@ body {
     width: 30px;
     height: 30px;
   }
-  .sld1 .s1 .tones .item1 .tone-img {
+  .sld1 .s1 .tones-l .item1 .tone-img {
     background-image: url('../images/1/tone-1.png');
   }
-  .sld1 .s1 .tones .item2 .tone-img {
+  .sld1 .s1 .tones-l .item2 .tone-img {
     background-image: url('../images/1/tone-2.png');
   }
-  .sld1 .s1 .tones .item3 .tone-img {
+  .sld1 .s1 .tones-l .item3 .tone-img {
     background-image: url('../images/1/tone-3.png');
   }
-  .sld1 .s1 .tones .item4 .tone-img {
+  .sld1 .s1 .tones-l .item4 .tone-img {
     background-image: url('../images/1/tone-4.png');
+  }
+  .sld1 .s1 .tones-r .item1 .tone-img {
+    background-image: url('../images/1/tone-1-r.png');
+  }
+  .sld1 .s1 .tones-r .item2 .tone-img {
+    background-image: url('../images/1/tone-2-r.png');
+  }
+  .sld1 .s1 .tones-r .item3 .tone-img {
+    background-image: url('../images/1/tone-3-r.png');
+  }
+  .sld1 .s1 .tones-r .item4 .tone-img {
+    background-image: url('../images/1/tone-4-r.png');
   }
